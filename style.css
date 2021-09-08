@@ -89,7 +89,7 @@ figcaption { caption-side: top; padding-bottom: 0.75rem;
 
 /* - * - * - * - * - * - * - * - * - * - */
 /* 3.1 Page Size */
-@page { size: A4; }
+@page { size: A3; }
 
 /* 3.2 Page Breaks */
 .page-break { break-after: page; }
