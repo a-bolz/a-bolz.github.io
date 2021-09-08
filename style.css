@@ -89,7 +89,7 @@ figcaption { caption-side: top; padding-bottom: 0.75rem;
 
 /* - * - * - * - * - * - * - * - * - * - */
 /* 3.1 Page Size */
-@page { size: A3; }
+@page { size: 400mm 100mm; }
 
 /* 3.2 Page Breaks */
 .page-break { break-after: page; }
@@ -159,7 +159,7 @@ h3 { string-set: subsection content(text); }
 .cover-page h1 { border-bottom: 0.25rem solid white; }
 .cover-page h3 { font-weight: normal; }
 @page cover-page {
-    background-color: black; color: white;
+    background-color: #347dbd; color: white;
     @top-right { content: none; }
     @bottom-left { content: none; }
     @bottom-right { content: none; }
